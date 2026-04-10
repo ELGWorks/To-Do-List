@@ -1,13 +1,4 @@
-let todoList = JSON.parse(localStorage.getItem('todoList')) || [{
-    name: 'make dinner',
-    dueDate: '2026-3-22',
-    completed: false
-}, {
-    name: 'do some coding practice',
-    dueDate: '2026-2-9',
-    completed: true
-}];
-
+let todoList = JSON.parse(localStorage.getItem('todoList')) || [];
 
 renderTodoList();
 

@@ -21,7 +21,7 @@
 ## 🚀 Live Demo
 
 <p>
-  <a href="https://elgworks.github.io/Rock-Paper-Scissors/">
+  <a href="https://elgworks.github.io/To-Do-List/">
     Try the app
   </a>
 </p>
