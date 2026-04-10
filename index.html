@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <script src="https://kit.fontawesome.com/a3e0f26cdb.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <main>
+            <p class="title">To-Do List</p>
+            <hr class="horizontal-line"/>
+            <div class="todo-input-grid">
+                <p class="label">Activity</p>
+                <p class="label">Due date</p>
+                <p></p>
+
+                <input placeholder="What would you like to do?" class="js-input name-input" onkeydown="handleAddKeydown(event)">
+
+                <input type="date" class="js-due-date-input due-date-input">
+
+                <button class="add-todo-button js-add-todo-button">Add</button>
+
+            </div>
+
+            <div class="js-todo-list"></div>
+
+        </main>
+    </body>
+
+</html>
