@@ -1,9 +1,5 @@
 # 📃 To-Do List
 
-<p align="center">
-  <b>A basic productivity app.</b>
-</p>
-
 ---
 
 ## 🎮 App Demo
